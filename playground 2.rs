@@ -61,6 +61,7 @@ impl DataBarang {
 }
 
 fn main() {
+        println!("   SELAMAT DATANG DI GUDANG KITA");
     let mut data_barang = DataBarang {
         data: HashMap::new(),
         stack: Vec::new(),
